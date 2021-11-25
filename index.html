@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SINTAXIS Y SELECTORES CSS" content="La sintaxis CSS refleja estas metas y estos son los bloques básicos de construcción.">
+    <title>Fase 3</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+</head>
+
+<body>
+    <!-- Sección del encabezado -->
+    <header>
+        <img src="img/html.jpg" alt="Imagen de logo" height="73" width="200">
+        <h1>Aprendiendo Sintaxis y Selectores CSS</h1>
+        <h6> Fase 3 <br> UNAD <br> Ingenieria en sistemas</h6>
+
+    </header>
+
+    <!-- Barra de menú horizontal -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="tema1.html">tema 1</a></li>
+                    <li><a href="tema2.html">teema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Audio1</a></li>
+                    <li><a href="recurso2.html">Audio2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Aprendizaje</a>
+                <ul class="dropdown">
+                    <li><a href="#">prueba1</a></li>
+                    <li><a href="#">prueba2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <br>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FMinisterioTIC.Colombia%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <!-- aquí debo cambiar en cada página con los contenidos -->
+            <article>
+                <h3>Sintaxis CSS</h3>
+                <p>CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de las páginas web creadas mediante el lenguaje HTML y XHTML</p>
+                <img src="https://aprende-web.net/css/objetos/esquema1.gif" width="500" height="250" alt="">
+            </article>
+            <article>
+                <h3>Selectores</h3>
+                <p>En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos aplicar estilo. Hay una amplia variedad de selectores CSS</p>
+                <img src="https://mdn.mozillademos.org/files/16550/selector.png" alt="">
+            </article>
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer>
+       <p> © Copyleft miOrganización.org | fecha de actualización: Noviembre 22, 2021 <br>
+           Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.
+           
+       </p>
+
+
+    </footer>
+</body>
+
+</html>
